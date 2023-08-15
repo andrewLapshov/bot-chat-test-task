@@ -1,7 +1,7 @@
 import cls from 'classnames';
 
 import { DotsTyping } from '../DotsTyping';
-import robotAvatar from './assets/robot.svg';
+import robotAvatar from '../../assets/robot.svg';
 import styles from './index.module.scss';
 import { Message as MessageType } from '../../types';
 
