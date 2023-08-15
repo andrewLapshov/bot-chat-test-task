@@ -50,7 +50,7 @@ export const Messenger = () => {
         const botId = v4();
 
         setMessages((messages) => ({
-            ids: [...messages.ids, botId, mineId],
+            ids: [...messages.ids, mineId, botId],
             messagesData: {
                 ...messages.messagesData,
                 [mineId]: { text: message, isMine: true },
