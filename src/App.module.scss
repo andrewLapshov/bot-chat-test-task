@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.root {
+    height: 100vh;
+
+    background: linear-gradient(180deg, #228BE6 0%, #0A3F8E 100%);
+}
+
+.main {
+    max-width: 781px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0 auto;
+    color: #FFF;
+    padding: 34px 0 76px;
+}
+
+.title {
+    margin: 0;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 155%;
+}
+
+.subtitle {
+    margin: 0 0 26px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+}
+
+

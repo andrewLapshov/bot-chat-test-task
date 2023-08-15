@@ -1,0 +1,39 @@
+.wrapper {
+    min-height: 72px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    padding: 16px 16px 16px 28px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: white;
+}
+
+.input {
+    flex-grow: 1;
+    display: block;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+
+    &::placeholder {
+        color: #CED0D6;
+    }
+}
+
+
+.sendButton {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    background: #007AFE;
+    cursor: pointer;
+}
